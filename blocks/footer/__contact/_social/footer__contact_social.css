@@ -5,7 +5,7 @@
 }
 
 .footer__contact_social:last-of-type {
-  margin-right: 0;
+  margin-right: calc(var(--index) * .5 / var(--divider));
 }
 
 .footer__contact_social:hover {

@@ -1,6 +1,6 @@
 .TwoColumn__Characteristics-img {
   width: 100%;
-  max-height: 75%;
+  max-height: 70%;
   object-fit: contain;
   object-position: center center;
   margin-bottom: calc(var(--index) * .75 / var(--divider));

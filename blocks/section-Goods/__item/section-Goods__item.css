@@ -1,5 +1,5 @@
 .section-Goods__item {
-  padding: calc(var(--index) * 1.2 / var(--divider));
+  padding: calc(var(--index) * 1 / var(--divider));
   display: flex;
   height: 100%;
   flex-direction: column;
