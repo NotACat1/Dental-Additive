@@ -1,0 +1,17 @@
+.btn-out {
+  font-family: 'Ubuntu', Georgia, 'Times New Roman', Times, serif;
+  position: fixed;
+  top: calc(var(--index) * 4.5);
+  right: calc(var(--index) * 1);
+  color: white;
+  background-color: #389ead;
+  padding: calc(var(--index) * 1 / var(--divider)) calc(var(--index) * 1 / var(--divider));
+  border-radius: calc(var(--index) * 2 / var(--divider));
+  font-size: calc(var(--index) * .95 / var(--divider));
+  font-weight: 500;
+  transition: background-color .5s ease;
+}
+
+.btn-out:hover {
+  background-color: #c459a7;
+}

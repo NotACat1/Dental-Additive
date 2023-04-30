@@ -1,0 +1,13 @@
+.footer__contact_social {
+  margin-right: calc(var(--index) * 1.5 / var(--divider));
+  transition: color .5s ease;
+  color: white; 
+}
+
+.footer__contact_social:last-of-type {
+  margin-right: 0;
+}
+
+.footer__contact_social:hover {
+  color: #c459a7;
+}

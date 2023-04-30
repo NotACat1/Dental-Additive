@@ -1,0 +1,9 @@
+.section-Goods__item-Info-title {
+  margin: 0;  
+  line-height: 1.2;
+  font-size: calc(var(--index) * 1.8 / var(--divider));
+  text-align: center;
+  font-weight: 700;
+  color: black;
+  margin-bottom: calc(var(--index) * 2.2 / var(--divider));
+}

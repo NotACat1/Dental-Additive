@@ -1,0 +1,12 @@
+.TwoColumn__paragraph {
+  margin: 0;  
+  line-height: 1.2;
+  font-size: calc(var(--index) * .85 / var(--divider));
+  text-align: justify;
+  font-weight: 400;
+  margin-bottom: calc(var(--index) * .55 / var(--divider));
+}
+
+.TwoColumn__paragraph:last-of-type {
+  margin-bottom: 0;
+}

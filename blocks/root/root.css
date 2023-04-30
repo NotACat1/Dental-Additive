@@ -1,0 +1,16 @@
+.root {
+	--index: calc(1vw + 1vh);
+  --divider: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .root {
+    --divider: 0.78;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .root {
+    --divider: 1;
+  }
+}

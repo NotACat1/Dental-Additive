@@ -1,0 +1,11 @@
+.section-Goods__item-about {
+  text-decoration: none;
+}
+
+.section-Goods__item-about:hover .section-Goods__item-title {
+  color: #c459a7;
+}
+
+.section-Goods__item-about:hover .section-Goods__item-subtitle {
+  color: #c459a7;
+}

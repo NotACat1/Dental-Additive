@@ -1,0 +1,6 @@
+.TwoColumn__Characteristics-text {
+  line-height: 1.2;
+  font-size: calc(var(--index) * .75 / var(--divider));
+  text-align: center;
+  font-weight: 500;
+}

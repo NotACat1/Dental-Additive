@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- Кодировка и шапка страницы -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" href="./images/favicon/apple-touch-icon.png">
+  <link rel="icon" href="./images/favicon/favicon.ico" sizes="any">
+  <link rel="manifest" href="./images/favicon/manifest.webmanifest">
+  <link rel="yandex-tableau-widget" href="./images/favicon/tableau.json">
+
+  <!-- Метатеги для браузера -->
+  <meta name="description" content="Компания Denty по продаже стоматологического оборудования. Печь для обжига стеклокерамики Deprag S7.">
+  <meta name="keywords" content="Продажа стоматологического оборудования, Батуми, Печь для обжига стеклокерамики, Deprag S7">
+  <meta name="author" content="NotACat">
+  
+  <!-- Метатеги для социальных сетей -->
+  <!-- Open Graph -->
+
+
+  <title>Deprag S7 | Denty</title>
+
+  <!-- Подключение внешних файлов -->
+  <!-- Bootstarp v5.0 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- GSAP -->
+  <script src="./vendor/GSAP/gsap.min.js" defer></script>
+  <script src="./vendor/GSAP/ScrollSmoother.min.js" defer></script>
+  <script src="./vendor/GSAP/ScrollTrigger.min.js" defer></script>
+
+  <!-- Подключение таблиц стилей страницы -->
+  <link rel="stylesheet" href="./pages/DepragS7.css">
+
+  <!-- Основной файл -->
+  <script src="./blocks/page/page.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <!-- Верхнее меню -->    
+    <nav class="root container-fluid TopNavBar">
+      <div class="row TopNavBar__row">
+        <a class="col-3 col-lg-2 TopNavBar__logo" href="./index.html">
+          <img class="TopNavBar__logo-img" src="./images/logo/LogoWhite.png" alt="Логотип Denty">
+        </a>
+        <div class="col-3 col-lg-2 dropdown TopNavBar__MenuLanguages">
+          <a class="TopNavBar__MenuLanguages-btn" role="button" id="dropdownMenuLanguages" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="flag-icon flag-icon-ru TopNavBar__iconLanguage"></span>RUS
+          </a>
+          <ul class="dropdown-menu TopNavBar__DropDownLanguage" aria-labelledby="dropdownMenuLanguages">
+            <li>
+              <a class="dropdown-item TopNavBar__DropDownLanguage-item" href="./DepragS7_eng.html"><span class="flag-icon flag-icon-gb TopNavBar__iconLanguage"></span>ENG</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Кнопка возвращения обратно -->
+    <a href="./index.html#Deprag S7">
+      <div class="root btn-out">Назад</div>
+    </a>    
+
+    <main class="container-fluid main-content_white">
+      <!-- Основная информация -->
+      <section class="root container-fluid TwoColumns">
+        <div class="row">
+          <div class="col-12 col-md-6 TwoColumn__column">
+            <h1 class="TwoColumn__title">Deprag S7</h1>
+            <p class="TwoColumn__paragraph">S7 - это новинка от китайской компании DEPRAG. Устройство предназначено для быстрой синтеризации диоксида циркония и оснащено полной автоматикой и современным высокоинтеллектуальным программным обеспечением.</p>
+            <p class="TwoColumn__paragraph">S7 оборудована 4-мя стержнями из карбида кремния, большой и удобный 7-ми дюймовый сенсорный экран, 2 режима спекания - быстрый и нормальный, функция непрерывной синтеризации, быстрое охлаждение с предварительной сушкой - все это и не только упрощает работу технику.</p>
+          </div>
+          <div class="col-12 col-md-6 TwoColumn__column">
+            <img class="TwoColumn__img" src="./images/Other/Deprag S7/Img1.png" alt="DEPRAG S7">
+          </div>          
+        </div>
+        <ul class="row TwoColumn__Characteristics">
+          <li class="col-4 TwoColumn__Characteristics-item">
+            <img class="TwoColumn__Characteristics-img" src="./images/Other/Deprag S7/Characteristics-1.png" alt="4 нагревательный элемент из SIC">
+            <p class="TwoColumn__Characteristics-text">Нагревательный элемент из SIC</p>
+          </li>
+          <li class="col-4 TwoColumn__Characteristics-item">
+            <img class="TwoColumn__Characteristics-img" src="./images/Other/Deprag S7/Characteristics-2.png" alt="7 бит глубина цвета">
+            <p class="TwoColumn__Characteristics-text">Цветной сенсорный экран высокой четкости</p>
+          </li>
+          <li class="col-4 TwoColumn__Characteristics-item">
+            <img class="TwoColumn__Characteristics-img" src="./images/Other/Deprag S7/Characteristics-3.png" alt="120 ℃/мин скорость нагрева">
+            <p class="TwoColumn__Characteristics-text">Высокая скорость нагрева (℃/мин)</p>
+          </li>
+        </ul>
+      </section>
+      <section class="root container section__DopInfo">
+        <h2 class="DopInfo__title">Технические характеристики</h2>
+        <table class="DopInfo__table">
+          <thead class="DopInfo__table-header">
+            <tr>
+              <th class="DopInfo__table-th" colspan="2">Общие характеристики</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="DopInfo__table-tr">
+              <td class="DopInfo__table-td">Питание</td>
+              <td class="DopInfo__table-td">220 В/ 50-60 Гц</td>
+            </tr>
+            <tr class="DopInfo__table-tr">
+              <td class="DopInfo__table-td">Максимальная мощность</td>
+              <td class="DopInfo__table-td">3000 Вт</td>
+            </tr>
+            <tr class="DopInfo__table-tr">
+              <td class="DopInfo__table-td">Максимальная температура</td>
+              <td class="DopInfo__table-td">1600 ℃</td>
+            </tr>
+            <tr class="DopInfo__table-tr">
+              <td class="DopInfo__table-td">Камера сгорания</td>
+              <td class="DopInfo__table-td">Φ100 мм</td>
+            </tr>
+            <tr class="DopInfo__table-tr">
+              <td class="DopInfo__table-td">Объем камеры сгорания</td>
+              <td class="DopInfo__table-td">0.95 л</td>
+            </tr>
+            <tr class="DopInfo__table-tr">
+              <td class="DopInfo__table-td">Скорость нагрева</td>
+              <td class="DopInfo__table-td">&le; 120 °C/ мин</td>
+            </tr>
+            <tr class="DopInfo__table-tr">
+              <td class="DopInfo__table-td">Точность температуры</td>
+              <td class="DopInfo__table-td">&plusmn;1 ℃</td>
+            </tr>
+          </tbody>
+          <thead class="DopInfo__table-header">
+            <tr>
+              <th class="DopInfo__table-th" colspan="2">Габариты и Вес</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="DopInfo__table-tr">
+              <td class="DopInfo__table-td">Размеры печи</td>
+              <td class="DopInfo__table-td">338 &times; 520 &times; 751 мм</td>
+            </tr>
+            <tr class="DopInfo__table-tr">
+              <td class="DopInfo__table-td">Вес</td>
+              <td class="DopInfo__table-td">прибл. 53 кг</td>
+            </tr>
+          </tbody>
+          <thead class="DopInfo__table-header">
+            <tr>
+              <th class="DopInfo__table-th" colspan="2">Комплектация</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="DopInfo__table-tr">
+              <td class="DopInfo__table-td">Аксессуары</td>
+              <td class="DopInfo__table-td">Стержни из карбида кремния, лоток для спекания, пинцет, шарики из циркония, PTCR</td>
+            </tr>
+          </tbody>
+        </table>
+        <img class="DopInfo__img" src="./images/Other/Deprag S7/Specifications.png" alt="Спецификация DEPRAG S7">  
+      </section>      
+    </main>  
+
+    <!-- Дно сайта -->
+    <footer class="root container-fluid footer">
+      <div class="row footer__row">
+        <div class="col-7 col-md-7 footer__column-first">
+          <a class="footer__contact footer__contact_telephone" href="tel:+995597139143">+995-597-139-143</a>
+          <p class="footer__copyright">&copy; Made by paws</p>
+        </div>
+        <div class="col-5 col-md-4 footer__column-second">
+          <a class="footer__contact footer__contact_social" href="https://instagram.com/stom_vbatumi?igshid=YmMyMTA2M2Y"><i class="bi bi-instagram footer__contact-icon"></i></a>
+          <a class="footer__contact footer__contact_social"href="https://m.facebook.com/story.php?story_fbid=pfbid02FFKJtnYvUKNygX9bJvEWmazH7ffgNawFx6sSYgj3V3QStmNRSWA7YMbvC4zKpfcPl&id=100091967651481&mibextid=Nif5oz"><i class="bi bi-facebook footer__contact-icon"></i></a>
+          <a class="footer__contact footer__contact_social" href="mailto:agamamedov69@gmail.com?subject=Dental Additive&body=Добрый день,"><i class="bi bi-envelope footer__contact-icon"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

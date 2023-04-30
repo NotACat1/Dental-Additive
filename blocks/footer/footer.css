@@ -1,0 +1,7 @@
+.footer {
+  background-color: #1b5773;
+  height: calc(var(--index) * 5 / var(--divider));
+  min-height: calc(var(--index) * 6 / var(--divider));
+  padding-top: calc(var(--index) * 1.2 / var(--divider));
+  padding-bottom: calc(var(--index) * 1.2 / var(--divider));
+}

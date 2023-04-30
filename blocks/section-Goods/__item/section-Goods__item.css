@@ -1,0 +1,14 @@
+.section-Goods__item {
+  padding: calc(var(--index) * 1.2 / var(--divider));
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius:  calc(var(--index) * .95 / var(--divider));
+  transition: background-color .5s ease;
+}
+
+.section-Goods__item:hover {
+  background-color: rgb(231, 230, 230);
+}

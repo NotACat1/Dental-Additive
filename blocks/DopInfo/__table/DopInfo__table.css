@@ -1,0 +1,5 @@
+.DopInfo__table {
+  width: 100%;
+  border: black  calc(var(--index) * .09 / var(--divider)) solid;
+  margin-bottom: calc(var(--index) * 3 / var(--divider));
+}

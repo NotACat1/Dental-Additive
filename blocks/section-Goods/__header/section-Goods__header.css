@@ -1,0 +1,7 @@
+.section-Goods__header {
+  background-color: #8dc7d0;
+  width: 100%;
+  margin-bottom: calc(var(--index) * 1.5 / var(--divider));
+  padding: calc(var(--index) * 1.5 / var(--divider)) 0;
+  color: white;
+}

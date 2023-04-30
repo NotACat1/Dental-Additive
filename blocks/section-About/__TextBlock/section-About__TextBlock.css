@@ -1,0 +1,8 @@
+.section-About__TextBlock {
+  background-color: white;
+  padding: calc(var(--index) * 2) calc(var(--index) * 3);
+  border-radius: calc(var(--index) * 2.2);
+  box-shadow: 0 0 calc(var(--index) * .55) #389ead;
+  position: relative;
+  top: calc(var(--index) * -2 - (var(--index) * 4.2 / var(--divider)));
+}

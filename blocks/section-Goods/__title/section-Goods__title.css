@@ -1,0 +1,7 @@
+.section-Goods__title {
+  margin: 0;  
+  line-height: 1.2;
+  font-size: calc(var(--index) * 2 / var(--divider));
+  text-align: center;
+  font-weight: 700;  
+}

@@ -1,0 +1,7 @@
+.section-Goods__item-price {
+  margin: 0;
+  color: black;
+  font-size: calc(var(--index) * .85 / var(--divider));
+  font-weight: 600;
+  margin-right: calc(var(--index) * .75 / var(--divider));
+}

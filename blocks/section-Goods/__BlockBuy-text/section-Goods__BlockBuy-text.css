@@ -1,0 +1,5 @@
+.section-Goods__BlockBuy-text {
+  font-size: calc(var(--index) * 1.65 / var(--divider));
+  font-weight: 400;
+  color: black;
+}

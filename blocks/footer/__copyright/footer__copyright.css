@@ -1,0 +1,8 @@
+.footer__copyright {
+  margin: 0;
+  line-height: 1.15;
+  font-size: calc(var(--index) * .75 / var(--divider));
+  font-weight: 400;
+  color: white;
+  margin-left: calc(var(--index) * 1.3 / var(--divider));
+}

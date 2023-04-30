@@ -1,0 +1,8 @@
+.TwoColumn__Characteristics-item {
+  list-style-type: none;
+  max-height: calc(var(--index) * 10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(var(--index) * 1) calc(var(--index) * 1);
+}

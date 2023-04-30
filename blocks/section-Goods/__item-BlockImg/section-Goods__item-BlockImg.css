@@ -1,0 +1,7 @@
+.section-Goods__item-BlockImg {
+  height: 30vh;
+  min-height: 30vh;
+  max-height: 40vh;
+  overflow: hidden;
+  margin-bottom: calc(var(--index) * .75 / var(--divider));
+}

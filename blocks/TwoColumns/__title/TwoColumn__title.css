@@ -1,0 +1,9 @@
+.TwoColumn__title {
+  margin: 0;  
+  line-height: 1.2;
+  font-size: calc(var(--index) * 2 / var(--divider));
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: calc(var(--index) * 1 / var(--divider));
+  text-decoration: underline #c459a7;
+}

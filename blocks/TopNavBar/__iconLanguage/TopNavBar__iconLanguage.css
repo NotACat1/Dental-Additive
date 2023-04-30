@@ -1,0 +1,4 @@
+.TopNavBar__iconLanguage {
+  margin-right: calc(var(--index) * .25);
+  transition: opacity .5s ease;
+}

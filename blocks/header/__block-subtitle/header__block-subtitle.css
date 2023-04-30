@@ -1,0 +1,8 @@
+.header__block-subtitle {
+  width: 75%;
+  margin: 0;
+  line-height: 1.15;
+  font-size: calc(var(--index) * 1.2 / var(--divider));
+  text-align: center;
+  font-weight: 400;
+}

@@ -1,0 +1,9 @@
+.section-Goods__item-title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: calc(var(--index) * .95 / var(--divider));
+  font-weight: 600;
+  color: black;
+  margin-bottom: calc(var(--index) * .35 / var(--divider));
+  transition: color .5s ease;
+}

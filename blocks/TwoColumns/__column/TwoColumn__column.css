@@ -1,0 +1,6 @@
+.TwoColumn__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: calc(var(--index) * 3) calc(var(--index) * 2);
+}

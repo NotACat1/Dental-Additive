@@ -1,0 +1,7 @@
+.DopInfo__table-tr {
+  transition: background-color .5s ease;
+}
+
+.DopInfo__table-tr:hover {
+  background-color: #efefef;
+}

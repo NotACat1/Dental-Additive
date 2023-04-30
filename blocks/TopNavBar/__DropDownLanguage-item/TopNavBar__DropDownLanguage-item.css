@@ -1,0 +1,16 @@
+.TopNavBar__DropDownLanguage-item {
+  line-height: 1.15;
+  font-size: calc(var(--index) * 1 / var(--divider));
+  font-weight: 500;
+  color: white;
+  transition: color .5s ease, background-color .5s ease;
+}
+
+.TopNavBar__DropDownLanguage-item:hover {
+  color: #a6bec9;
+  background-color: #8a1d6a;
+}
+
+.TopNavBar__DropDownLanguage-item:hover .TopNavBar__iconLanguage {
+  opacity: .7;
+}

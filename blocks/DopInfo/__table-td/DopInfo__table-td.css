@@ -1,0 +1,8 @@
+.DopInfo__table-td {
+  padding: calc(var(--index) * .55 / var(--divider)) 0;
+  padding-left: calc(var(--index) * 1 / var(--divider));
+  font-size: calc(var(--index) * .75 / var(--divider));
+  font-weight: 400;
+  border-bottom: black  calc(var(--index) * .09 / var(--divider)) solid;
+  border-right: black  calc(var(--index) * .09 / var(--divider)) solid;
+}

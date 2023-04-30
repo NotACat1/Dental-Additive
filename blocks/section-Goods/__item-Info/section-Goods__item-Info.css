@@ -1,0 +1,6 @@
+.section-Goods__item-Info {
+  position: relative;
+  background-color: #ffffff;
+  padding: calc(var(--index) * 5 / var(--divider)) calc(var(--index) * 5 / var(--divider));
+  border-radius: calc(var(--index) * 1.5 / var(--divider));
+}

@@ -1,0 +1,9 @@
+.section-Goods__item-discount {
+  margin: 0;
+  padding: calc(var(--index) * .1 / var(--divider)) calc(var(--index) * .3 / var(--divider));
+  border-radius: calc(var(--index) * .15 / var(--divider));
+  color: white;
+  background-color: #fc5230;
+  font-size: calc(var(--index) * .65 / var(--divider));
+  font-weight: 600;
+}

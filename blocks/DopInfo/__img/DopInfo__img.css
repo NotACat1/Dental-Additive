@@ -1,0 +1,7 @@
+.DopInfo__img {
+  width: 100%;
+  max-height: 45vh;
+  object-fit: contain;
+  object-position: center center;
+  padding-bottom: calc(var(--index) * 3 / var(--divider));
+}

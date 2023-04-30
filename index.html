@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- Кодировка и шапка страницы -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" href="./images/favicon/apple-touch-icon.png">
+  <link rel="icon" href="./images/favicon/favicon.ico" sizes="any">
+  <link rel="manifest" href="./images/favicon/manifest.webmanifest">
+  <link rel="yandex-tableau-widget" href="./images/favicon/tableau.json">
+
+  <!-- Метатеги для браузера -->
+  <meta name="description" content="Компания Denty поможет подобрать стоматологическое оборудование для вашей клиники. Мы всегда готовы помочь Вам с подбором оборудования. В нашем каталоге вы найдете широкий выбор оборудования, которое поможет Вам в работе.">
+  <meta name="keywords" content="Продажа стоматологического оборудования, Батуми, Фрезерный станок, Deprag W52, Deprag W42, Deprag W40, Фарфоровая печь, Deprag P7, Deprag S7, Интраоральный сканер, Shining3D AORALSCAN">
+  <meta name="author" content="NotACat">
+  
+  <!-- Метатеги для социальных сетей -->
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Продажа стоматологического оборудования в Батуми">
+  <meta property="og:description" content="Компания Denty поможет подобрать стоматологическое оборудование для вашей клиники. Мы всегда готовы помочь Вам с подбором оборудования. В нашем каталоге вы найдете широкий выбор оборудования, которое поможет Вам в работе.">
+  <meta property="og:image" content="https://i.yapx.ru/V8M0J.png">
+  <meta property="og:site_name" content="Denty">
+  <meta property="og:locale" content="ru_RU">
+
+  <title>Продажа стоматологического оборудования в Батуми | Denty</title>
+
+  <!-- Подключение внешних файлов -->
+  <!-- Bootstarp v5.0 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- GSAP -->
+  <script src="./vendor/GSAP/gsap.min.js" defer></script>
+  <script src="./vendor/GSAP/ScrollSmoother.min.js" defer></script>
+  <script src="./vendor/GSAP/ScrollTrigger.min.js" defer></script>
+
+  <!-- Подключение таблиц стилей страницы -->
+  <link rel="stylesheet" href="./pages/index.css">
+
+  <!-- Основной файл -->
+  <script src="./blocks/page/page.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <!-- Верхнее меню -->
+    <nav class="root container-fluid TopNavBar">
+      <div class="row TopNavBar__row">
+        <a class="col-3 col-lg-2 TopNavBar__logo" href="#">
+          <img class="TopNavBar__logo-img" src="./images/logo/LogoWhite.png" alt="Логотип Denty">
+        </a>
+        <div class="col-lg-8 d-none d-lg-block">
+          <ul class="TopNavBar__menu">
+            <li class="col-4 TopNavBar__menu-item">
+              <a class="TopNavBar__menu-href" href="#section-About">О нас</a>
+            </li>
+            <li class="col-4 TopNavBar__menu-item">
+              <a class="TopNavBar__menu-href" href="#Milling-machines">Фрезерные станки</a>
+            </li>
+            <li class="col-4 TopNavBar__menu-item">
+              <a class="TopNavBar__menu-href" href="#Other">Другие товары</a>
+            </li>
+          </ul>
+        </div>        
+        <div class="col-3 col-lg-2 dropdown TopNavBar__MenuLanguages">
+          <a class="TopNavBar__MenuLanguages-btn" role="button" id="dropdownMenuLanguages" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="flag-icon flag-icon-ru TopNavBar__iconLanguage"></span>RUS
+          </a>
+          <ul class="dropdown-menu TopNavBar__DropDownLanguage" aria-labelledby="dropdownMenuLanguages">
+            <li>
+              <a class="dropdown-item TopNavBar__DropDownLanguage-item" href="./index_eng.html"><span class="flag-icon flag-icon-gb TopNavBar__iconLanguage"></span>ENG</a>
+            </li>
+          </ul>
+        </div>       
+      </div>
+    </nav>
+    <!-- Шапка сайта -->
+    <header class="root header">
+      <div class="header__block">
+        <h1 class="header__block-title">Магазин стоматологического оборудования</h1>
+        <p class="header__block-subtitle">За отличную продукцию и внимательный опыт</p>
+      </div>
+    </header>
+
+    <main class="container-fluid main-content">
+      <!-- Блок section-About -->
+      <section class="root container section-About">
+        <div class="row section-About__row">
+          <div class="col-11 col-lg-10 section-About__TextBlock" id="section-About">
+            <h2 class="section-About__title">О нас</h2>
+            <p class="section-About__subtitle">
+              Наша компания по продаже стоматологического оборудования предлагает Вам стоматологическое 
+              оборудование для клиник и кабинетов. Стоматологический кабинет, как центр оказания 
+              стоматологических услуг, должен быть оснащен профессиональным стоматологическим оборудованием, 
+              которое обеспечивает качественное выполнение стоматологических операций.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Блок section-Goods -->
+      <section class="root container-fluid section-Goods" id="Milling-machines">
+        <div class="section-Goods__header">
+          <h2 class="section-Goods__title">Фрезерные станки</h2>
+        </div>        
+        <ul class="row section-Goods__items">
+          <!-- Deprag W52 -->
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Deprag W52">
+            <div class="section-Goods__item">
+              <div>
+                <a href="./DepragW52.html" arget="_blank" class="section-Goods__item-about">
+                  <div class="section-Goods__item-BlockImg">
+                    <img class="section-Goods__item-img" src="./images/MillingMachine/DEPRAG W52/Img1.png" alt="DEPRAG W52">
+                  </div>
+                </a>
+                <div class="section-Goods__item-BlockPrice">
+                  <p class="section-Goods__item-price">1000$</p>
+                  <p class="section-Goods__item-not-discount">50000$</p>
+                  <p class="section-Goods__item-discount">-20%</p>
+                </div>
+                <a href="./DepragW52.html" arget="_blank" class="section-Goods__item-about">
+                  <h3 class="section-Goods__item-title">Deprag W52</h3>
+                  <p class="section-Goods__item-subtitle">DEPRAG W52 — это 5-осевой фрезерный станок для мокрой и сухой обработки, способный обрабатывать широкий спектр материалов.</p>
+                </a>
+              </div>
+              <button class="section-Goods__item-btn" id="btn-open__Deprag-W52">Связаться</button>
+            </div>  
+            <div class="section-Goods__item-BlockInfo" id="Info__Deprag-W52">
+              <div class="section-Goods__item-Info">
+                <button class="section-Goods__item-Info-btn" id="btn-close__Deprag-W52"><i class="bi bi-x"></i></button>
+                <h4 class="section-Goods__item-Info-title">Наши контакты</h4>
+                <div class="section-Goods__item-Info-contacts">
+                  <a class="section-Goods__item-Info-contact" href="tel:+995597139143"><i class="bi bi-telephone-fill section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://instagram.com/stom_vbatumi?igshid=YmMyMTA2M2Y"><i class="bi bi-instagram section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://m.facebook.com/story.php?story_fbid=pfbid02FFKJtnYvUKNygX9bJvEWmazH7ffgNawFx6sSYgj3V3QStmNRSWA7YMbvC4zKpfcPl&id=100091967651481&mibextid=Nif5oz"><i class="bi bi-facebook section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="mailto:agamamedov69@gmail.com?subject=Dental Additive&body=Добрый день. Заинтерисовл товар Deprag W52."><i class="bi bi-envelope section-Goods__item-Info-contact-icon"></i></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Deprag W42 -->
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Deprag W42">
+            <div class="section-Goods__item">
+              <div>
+                <a href="./DepragW42.html" arget="_blank" class="section-Goods__item-about">
+                  <div class="section-Goods__item-BlockImg">
+                    <img class="section-Goods__item-img" src="./images/MillingMachine/DEPRAG W42/Img1.png" alt="DEPRAG W42">
+                  </div>
+                </a>
+                <div class="section-Goods__item-BlockPrice">
+                  <p class="section-Goods__item-price">1000$</p>
+                  <p class="section-Goods__item-not-discount">50000$</p>
+                  <p class="section-Goods__item-discount">-20%</p>
+                </div>
+                <a href="./DepragW42.html" arget="_blank" class="section-Goods__item-about">
+                  <h3 class="section-Goods__item-title">Deprag W42</h3>
+                  <p class="section-Goods__item-subtitle">4-осевой фрезерный станок для мокрой обработки DEPRAG W42 соответствует высоким стандартам разработки, что обеспечивает повышенную производительность.</p>
+                </a>
+              </div>
+              <button class="section-Goods__item-btn" id="btn-open__Deprag-W42">Связаться</button>
+            </div>  
+            <div class="section-Goods__item-BlockInfo" id="Info__Deprag-W42">
+              <div class="section-Goods__item-Info">
+                <button class="section-Goods__item-Info-btn" id="btn-close__Deprag-W42"><i class="bi bi-x"></i></button>
+                <h4 class="section-Goods__item-Info-title">Наши контакты</h4>
+                <div class="section-Goods__item-Info-contacts">
+                  <a class="section-Goods__item-Info-contact" href="tel:+995597139143"><i class="bi bi-telephone-fill section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://instagram.com/stom_vbatumi?igshid=YmMyMTA2M2Y"><i class="bi bi-instagram section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://m.facebook.com/story.php?story_fbid=pfbid02FFKJtnYvUKNygX9bJvEWmazH7ffgNawFx6sSYgj3V3QStmNRSWA7YMbvC4zKpfcPl&id=100091967651481&mibextid=Nif5oz"><i class="bi bi-facebook section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="mailto:agamamedov69@gmail.com?subject=Dental Additive&body=Добрый день. Заинтерисовл товар Deprag W42."><i class="bi bi-envelope section-Goods__item-Info-contact-icon"></i></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Deprag W40 -->
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Deprag W40">
+            <div class="section-Goods__item">
+              <div>
+                <a href="./DepragW40.html" arget="_blank" class="section-Goods__item-about">
+                  <div class="section-Goods__item-BlockImg">
+                    <img class="section-Goods__item-img" src="./images/MillingMachine/DEPRAG W40/Img1.png" alt="DEPRAG W40">
+                  </div>
+                </a>
+                <div class="section-Goods__item-BlockPrice">
+                  <p class="section-Goods__item-price">1000$</p>
+                  <p class="section-Goods__item-not-discount">50000$</p>
+                  <p class="section-Goods__item-discount">-20%</p>
+                </div>
+                <a href="./DepragW40.html" arget="_blank" class="section-Goods__item-about">
+                  <h3 class="section-Goods__item-title">Deprag W40</h3>
+                  <p class="section-Goods__item-subtitle">W40 — 4-осевой фрезерный станок мокрого типа с установленным холдером для блоков. Данная модель предназначена для обработки блоков из стекокерамики композитных материалов.</p>
+                </a>
+              </div>
+              <button class="section-Goods__item-btn" id="btn-open__Deprag-W40">Связаться</button>
+            </div>  
+            <div class="section-Goods__item-BlockInfo" id="Info__Deprag-W40">
+              <div class="section-Goods__item-Info">
+                <button class="section-Goods__item-Info-btn" id="btn-close__Deprag-W40"><i class="bi bi-x"></i></button>
+                <h4 class="section-Goods__item-Info-title">Наши контакты</h4>
+                <div class="section-Goods__item-Info-contacts">
+                  <a class="section-Goods__item-Info-contact" href="tel:+995597139143"><i class="bi bi-telephone-fill section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://instagram.com/stom_vbatumi?igshid=YmMyMTA2M2Y"><i class="bi bi-instagram section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://m.facebook.com/story.php?story_fbid=pfbid02FFKJtnYvUKNygX9bJvEWmazH7ffgNawFx6sSYgj3V3QStmNRSWA7YMbvC4zKpfcPl&id=100091967651481&mibextid=Nif5oz"><i class="bi bi-facebook section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="mailto:agamamedov69@gmail.com?subject=Dental Additive&body=Добрый день. Заинтерисовл товар Deprag W40."><i class="bi bi-envelope section-Goods__item-Info-contact-icon"></i></a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="root container-fluid section-Goods" id="Other">
+        <div class="section-Goods__header">
+          <h2 class="section-Goods__title">Другие товары</h2>
+        </div>        
+        <ul class="row section-Goods__items">
+          <!-- Deprag P7 -->
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Deprag P7">
+            <div class="section-Goods__item">
+              <div>
+                <a href="./DepragP7.html" arget="_blank" class="section-Goods__item-about">
+                  <div class="section-Goods__item-BlockImg">
+                    <img class="section-Goods__item-img" src="./images/Other/Deprag P7/Img1.png" alt="DEPRAG P7">
+                  </div>
+                </a>
+                <div class="section-Goods__item-BlockPrice">
+                  <p class="section-Goods__item-price">1000$</p>
+                  <p class="section-Goods__item-not-discount">50000$</p>
+                  <p class="section-Goods__item-discount">-20%</p>
+                </div>
+                <a href="./DepragP7.html" arget="_blank" class="section-Goods__item-about">
+                  <h3 class="section-Goods__item-title">Deprag P7</h3>
+                  <p class="section-Goods__item-subtitle">DEPRAG P7 — это современная печь, разработанная специально для обжига стеклокерамики.</p>
+                </a>
+              </div>
+              <button class="section-Goods__item-btn" id="btn-open__Deprag-P7">Связаться</button>
+            </div>  
+            <div class="section-Goods__item-BlockInfo" id="Info__Deprag-P7">
+              <div class="section-Goods__item-Info">
+                <button class="section-Goods__item-Info-btn" id="btn-close__Deprag-P7"><i class="bi bi-x"></i></button>
+                <h4 class="section-Goods__item-Info-title">Наши контакты</h4>
+                <div class="section-Goods__item-Info-contacts">
+                  <a class="section-Goods__item-Info-contact" href="tel:+995597139143"><i class="bi bi-telephone-fill section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://instagram.com/stom_vbatumi?igshid=YmMyMTA2M2Y"><i class="bi bi-instagram section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://m.facebook.com/story.php?story_fbid=pfbid02FFKJtnYvUKNygX9bJvEWmazH7ffgNawFx6sSYgj3V3QStmNRSWA7YMbvC4zKpfcPl&id=100091967651481&mibextid=Nif5oz"><i class="bi bi-facebook section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="mailto:agamamedov69@gmail.com?subject=Dental Additive&body=Добрый день. Заинтерисовл товар Deprag P7."><i class="bi bi-envelope section-Goods__item-Info-contact-icon"></i></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Deprag S7 -->
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Deprag S7">
+            <div class="section-Goods__item">
+              <div>
+                <a href="./DepragS7.html" arget="_blank" class="section-Goods__item-about">
+                  <div class="section-Goods__item-BlockImg">
+                    <img class="section-Goods__item-img" src="./images/Other/Deprag S7/Img1.png" alt="DEPRAG S7">
+                  </div>
+                </a>
+                <div class="section-Goods__item-BlockPrice">
+                  <p class="section-Goods__item-price">1000$</p>
+                  <p class="section-Goods__item-not-discount">50000$</p>
+                  <p class="section-Goods__item-discount">-20%</p>
+                </div>
+                <a href="./DepragS7.html" arget="_blank" class="section-Goods__item-about">
+                  <h3 class="section-Goods__item-title">Deprag S7</h3>
+                  <p class="section-Goods__item-subtitle">S7 - это новинка от китайской компании DEPRAG. Устройство предназначено для быстрой синтеризации диоксида циркония и оснащено полной автоматикой и современным высокоинтеллектуальным программным обеспечением.</p>
+                </a>
+              </div>
+              <button class="section-Goods__item-btn" id="btn-open__Deprag-S7">Связаться</button>
+            </div>  
+            <div class="section-Goods__item-BlockInfo" id="Info__Deprag-S7">
+              <div class="section-Goods__item-Info">
+                <button class="section-Goods__item-Info-btn" id="btn-close__Deprag-S7"><i class="bi bi-x"></i></button>
+                <h4 class="section-Goods__item-Info-title">Наши контакты</h4>
+                <div class="section-Goods__item-Info-contacts">
+                  <a class="section-Goods__item-Info-contact" href="tel:+995597139143"><i class="bi bi-telephone-fill section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://instagram.com/stom_vbatumi?igshid=YmMyMTA2M2Y"><i class="bi bi-instagram section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://m.facebook.com/story.php?story_fbid=pfbid02FFKJtnYvUKNygX9bJvEWmazH7ffgNawFx6sSYgj3V3QStmNRSWA7YMbvC4zKpfcPl&id=100091967651481&mibextid=Nif5oz"><i class="bi bi-facebook section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="mailto:agamamedov69@gmail.com?subject=Dental Additive&body=Добрый день. Заинтерисовл товар Deprag S7."><i class="bi bi-envelope section-Goods__item-Info-contact-icon"></i></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Aoralscan3 -->
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Aoralscan3">
+            <div class="section-Goods__item">
+              <div>
+                <a href="./Aoralscan3.html" arget="_blank" class="section-Goods__item-about">
+                  <div class="section-Goods__item-BlockImg">
+                    <img class="section-Goods__item-img" src="./images/Other/Aoralscan3/Img1.png" alt="Aoralscan3">
+                  </div>
+                </a>
+                <div class="section-Goods__item-BlockPrice">
+                  <p class="section-Goods__item-price">1000$</p>
+                  <p class="section-Goods__item-not-discount">50000$</p>
+                  <p class="section-Goods__item-discount">-20%</p>
+                </div>
+                <a href="./Aoralscan3.html" arget="_blank" class="section-Goods__item-about">
+                  <h3 class="section-Goods__item-title">Aoralscan3</h3>
+                  <p class="section-Goods__item-subtitle">Компактный интраоральный сканер с высокой скоростью сканирования и удобным интерфейсом.</p>
+                </a>
+              </div>
+              <button class="section-Goods__item-btn" id="btn-open__Aoralscan3">Связаться</button>
+            </div>  
+            <div class="section-Goods__item-BlockInfo" id="Info__Aoralscan3">
+              <div class="section-Goods__item-Info">
+                <button class="section-Goods__item-Info-btn" id="btn-close__Aoralscan3"><i class="bi bi-x"></i></button>
+                <h4 class="section-Goods__item-Info-title">Наши контакты</h4>
+                <div class="section-Goods__item-Info-contacts">
+                  <a class="section-Goods__item-Info-contact" href="tel:+995597139143"><i class="bi bi-telephone-fill section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://instagram.com/stom_vbatumi?igshid=YmMyMTA2M2Y"><i class="bi bi-instagram section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="https://m.facebook.com/story.php?story_fbid=pfbid02FFKJtnYvUKNygX9bJvEWmazH7ffgNawFx6sSYgj3V3QStmNRSWA7YMbvC4zKpfcPl&id=100091967651481&mibextid=Nif5oz"><i class="bi bi-facebook section-Goods__item-Info-contact-icon"></i></a>
+                  <a class="section-Goods__item-Info-contact" href="mailto:agamamedov69@gmail.com?subject=Dental Additive&body=Добрый день. Заинтерисовл товар Aoralscan3."><i class="bi bi-envelope section-Goods__item-Info-contact-icon"></i></a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>    
+    <footer class="root container-fluid footer">
+      <div class="row footer__row">
+        <div class="col-7 col-md-7 footer__column-first">
+          <a class="footer__contact footer__contact_telephone" href="tel:+995597139143">+995-597-139-143</a>
+          <p class="footer__copyright">&copy; Made by paws</p>
+        </div>
+        <div class="col-5 col-md-4 footer__column-second">
+          <a class="footer__contact footer__contact_social" href="https://instagram.com/stom_vbatumi?igshid=YmMyMTA2M2Y"><i class="bi bi-instagram footer__contact-icon"></i></a>
+          <a class="footer__contact footer__contact_social"href="https://m.facebook.com/story.php?story_fbid=pfbid02FFKJtnYvUKNygX9bJvEWmazH7ffgNawFx6sSYgj3V3QStmNRSWA7YMbvC4zKpfcPl&id=100091967651481&mibextid=Nif5oz"><i class="bi bi-facebook footer__contact-icon"></i></a>
+          <a class="footer__contact footer__contact_social" href="mailto:agamamedov69@gmail.com?subject=Dental Additive&body=Добрый день,"><i class="bi bi-envelope footer__contact-icon"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

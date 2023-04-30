@@ -1,0 +1,18 @@
+.section-Goods__item-btn {
+  font-size: calc(var(--index) * .90 / var(--divider));
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius:  calc(var(--index) * .90 / var(--divider));
+  padding: calc(var(--index) * .5 / var(--divider)) 0;
+  background-color: #389ead;
+  transition: background-color .5s ease;
+}
+
+.section-Goods__item-btn:hover {
+  background-color: #c459a7;
+}
+
+.section-Goods__item-btn:active {
+  background-color: #c459a7;
+}

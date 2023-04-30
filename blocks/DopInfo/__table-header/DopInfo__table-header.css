@@ -1,0 +1,7 @@
+.DopInfo__table-header {
+  background-color: #e3f1f4;
+}
+
+.DopInfo__table-header:first-of-type {
+  background-color: #8dc7d0;
+}

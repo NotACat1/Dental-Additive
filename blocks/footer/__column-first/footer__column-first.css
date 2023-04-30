@@ -1,0 +1,5 @@
+.footer__column-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

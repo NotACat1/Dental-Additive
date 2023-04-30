@@ -1,0 +1,6 @@
+.section-About__subtitle {
+  line-height: 1.15;
+  font-size: calc(var(--index) * 1.2 / var(--divider));
+  text-align: justify;
+  font-weight: 400;
+}

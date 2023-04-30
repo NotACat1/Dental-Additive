@@ -1,0 +1,5 @@
+.section-Goods__item-BlockPrice {
+  display: flex;
+  align-items: end;
+  margin-bottom: calc(var(--index) * .75 / var(--divider));
+}

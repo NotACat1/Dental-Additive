@@ -1,0 +1,6 @@
+.DopInfo__title {
+  font-size: calc(var(--index) * 1.65 / var(--divider));
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: calc(var(--index) * 1.1 / var(--divider));
+}

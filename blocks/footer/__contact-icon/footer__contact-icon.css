@@ -1,0 +1,4 @@
+.footer__contact-icon {
+  line-height: 1.15;
+  font-size: calc(var(--index) * 1.65 / var(--divider));
+}

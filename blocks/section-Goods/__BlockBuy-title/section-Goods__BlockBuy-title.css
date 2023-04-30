@@ -1,0 +1,6 @@
+.section-Goods__BlockBuy-title {
+  text-align: center;
+  font-size: calc(var(--index) * 2 / var(--divider));
+  font-weight: 500;
+  color: black;
+}
