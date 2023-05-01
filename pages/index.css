@@ -81,3 +81,9 @@
 @import url(../blocks/footer/__contact/_social/footer__contact_social.css);
 @import url(../blocks/footer/__column-second/footer__column-second.css);
 
+/* PreloaderBlock */
+@import url(../blocks/PreloaderBlock/PreloaderBlock.css);
+@import url(../blocks/PreloaderBlock/__Preloader/PreloaderBlock__Preloader.css);
+@import url(../blocks/PreloaderBlock/__text/PreloaderBlock__text.css);
+@import url(../blocks/PreloaderBlock/__BoxText/PreloaderBlock__BoxText.css);
+@import url(../blocks/PreloaderBlock/__text/_transparent/PreloaderBlock__text_transparent.css);

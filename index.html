@@ -39,10 +39,22 @@
   <!-- Подключение таблиц стилей страницы -->
   <link rel="stylesheet" href="./pages/index.css">
 
-  <!-- Основной файл -->
-  <script src="./blocks/page/page.js" defer></script>
+  <!-- Основной файл js -->
+  <script src="./pages/index.js" defer></script>
+  <!-- Основные файлы js -->
+  <script src="./blocks/PreloaderBlock/Preloader.js" defer></script>
 </head>
 <body>
+  <!-- Прелодер -->
+  <div class="root PreloaderBlock">
+    <div class="PreloaderBlock__Preloader">
+      <div class="PreloaderBlock__BoxText">
+        <p class="PreloaderBlock__text">Loading...</p>
+        <p class="PreloaderBlock__text PreloaderBlock__text_transparent">Loading...</p>
+      </div>     
+    </div>
+  </div>
+
   <div class="page">
     <!-- Верхнее меню -->
     <nav class="root container-fluid TopNavBar">
@@ -53,16 +65,16 @@
         <div class="col-lg-8 d-none d-lg-block">
           <ul class="TopNavBar__menu">
             <li class="col-4 TopNavBar__menu-item">
-              <a class="TopNavBar__menu-href" href="#section-About">О нас</a>
+              <a class="TopNavBar__menu-href" href="#section-About" id="TopNav__section-About">О нас</a>
             </li>
             <li class="col-4 TopNavBar__menu-item">
-              <a class="TopNavBar__menu-href" href="#Milling-machines">Фрезерные станки</a>
+              <a class="TopNavBar__menu-href" href="#Milling-machines" id="TopNav__Milling-machines">Фрезерные станки</a>
             </li>
             <li class="col-4 TopNavBar__menu-item">
-              <a class="TopNavBar__menu-href" href="#Other">Другие товары</a>
+              <a class="TopNavBar__menu-href" href="#Other" id="TopNav__Other">Другие товары</a>
             </li>
           </ul>
-        </div>        
+        </div>
         <div class="col-3 col-lg-2 dropdown TopNavBar__MenuLanguages">
           <a class="TopNavBar__MenuLanguages-btn" role="button" id="dropdownMenuLanguages" data-bs-toggle="dropdown" aria-expanded="false">
             <span class="flag-icon flag-icon-ru TopNavBar__iconLanguage"></span>RUS
@@ -72,17 +84,17 @@
               <a class="dropdown-item TopNavBar__DropDownLanguage-item" href="./index_eng.html"><span class="flag-icon flag-icon-gb TopNavBar__iconLanguage"></span>ENG</a>
             </li>
           </ul>
-        </div>       
+        </div>
       </div>
-    </nav>
-    <!-- Шапка сайта -->
-    <header class="root header">
+    </nav> 
+     <!-- Шапка сайта -->
+     <header class="root header">
       <div class="header__block">
         <h1 class="header__block-title">Магазин стоматологического оборудования</h1>
         <p class="header__block-subtitle">За отличную продукцию и внимательный опыт</p>
       </div>
     </header>
-
+    <!-- Основной контент -->
     <main class="main-content">
       <!-- Блок section-About -->
       <section class="root container section-About">
@@ -105,12 +117,12 @@
         </div>
         <ul class="row section-Goods__items">
           <!-- Deprag W52 -->
-          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Deprag W52">
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="DepragW52">
             <div class="section-Goods__item">
               <div>
-                <a href="./DepragW52.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./DepragW52.html" class="section-Goods__item-about">
                   <div class="section-Goods__item-BlockImg">
-                    <img class="section-Goods__item-img" src="./images/MillingMachine/DEPRAG W52/Img1.png" alt="DEPRAG W52">
+                    <img class="section-Goods__item-img" src="./images/MillingMachine/DepragW52/Img1.png" alt="DEPRAG W52">
                   </div>
                 </a>
                 <div class="section-Goods__item-BlockPrice">
@@ -118,7 +130,7 @@
                   <p class="section-Goods__item-not-discount">50000$</p>
                   <p class="section-Goods__item-discount">-20%</p>
                 </div>
-                <a href="./DepragW52.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./DepragW52.html" class="section-Goods__item-about">
                   <h3 class="section-Goods__item-title">Deprag W52</h3>
                   <p class="section-Goods__item-subtitle">DEPRAG W52 — это 5-осевой фрезерный станок для мокрой и сухой обработки, способный обрабатывать широкий спектр материалов.</p>
                 </a>
@@ -139,12 +151,12 @@
             </div>
           </li>
           <!-- Deprag W42 -->
-          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Deprag W42">
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="DepragW42">
             <div class="section-Goods__item">
               <div>
-                <a href="./DepragW42.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./DepragW42.html" class="section-Goods__item-about">
                   <div class="section-Goods__item-BlockImg">
-                    <img class="section-Goods__item-img" src="./images/MillingMachine/DEPRAG W42/Img1.png" alt="DEPRAG W42">
+                    <img class="section-Goods__item-img" src="./images/MillingMachine/DepragW42/Img1.png" alt="DEPRAG W42">
                   </div>
                 </a>
                 <div class="section-Goods__item-BlockPrice">
@@ -152,7 +164,7 @@
                   <p class="section-Goods__item-not-discount">50000$</p>
                   <p class="section-Goods__item-discount">-20%</p>
                 </div>
-                <a href="./DepragW42.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./DepragW42.html" class="section-Goods__item-about">
                   <h3 class="section-Goods__item-title">Deprag W42</h3>
                   <p class="section-Goods__item-subtitle">4-осевой фрезерный станок для мокрой обработки DEPRAG W42 соответствует высоким стандартам разработки, что обеспечивает повышенную производительность.</p>
                 </a>
@@ -173,12 +185,12 @@
             </div>
           </li>
           <!-- Deprag W40 -->
-          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Deprag W40">
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="DepragW40">
             <div class="section-Goods__item">
               <div>
-                <a href="./DepragW40.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./DepragW40.html" class="section-Goods__item-about">
                   <div class="section-Goods__item-BlockImg">
-                    <img class="section-Goods__item-img" src="./images/MillingMachine/DEPRAG W40/Img1.png" alt="DEPRAG W40">
+                    <img class="section-Goods__item-img" src="./images/MillingMachine/DepragW40/Img1.png" alt="DEPRAG W40">
                   </div>
                 </a>
                 <div class="section-Goods__item-BlockPrice">
@@ -186,7 +198,7 @@
                   <p class="section-Goods__item-not-discount">50000$</p>
                   <p class="section-Goods__item-discount">-20%</p>
                 </div>
-                <a href="./DepragW40.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./DepragW40.html" class="section-Goods__item-about">
                   <h3 class="section-Goods__item-title">Deprag W40</h3>
                   <p class="section-Goods__item-subtitle">W40 — 4-осевой фрезерный станок мокрого типа с установленным холдером для блоков. Данная модель предназначена для обработки блоков из стекокерамики композитных материалов.</p>
                 </a>
@@ -208,18 +220,19 @@
           </li>
         </ul>
       </section>
+      <!-- Блок section-Other -->
       <section class="root container-fluid section-Goods" id="Other">
         <div class="row section-Goods__header">
           <h2 class="section-Goods__title">Другие товары</h2>
         </div>        
         <ul class="row section-Goods__items">
           <!-- Deprag P7 -->
-          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Deprag P7">
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="DepragP7">
             <div class="section-Goods__item">
               <div>
-                <a href="./DepragP7.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./DepragP7.html" class="section-Goods__item-about">
                   <div class="section-Goods__item-BlockImg">
-                    <img class="section-Goods__item-img" src="./images/Other/Deprag P7/Img1.png" alt="DEPRAG P7">
+                    <img class="section-Goods__item-img" src="./images/Other/DepragP7/Img1.png" alt="DEPRAG P7">
                   </div>
                 </a>
                 <div class="section-Goods__item-BlockPrice">
@@ -227,7 +240,7 @@
                   <p class="section-Goods__item-not-discount">50000$</p>
                   <p class="section-Goods__item-discount">-20%</p>
                 </div>
-                <a href="./DepragP7.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./DepragP7.html" class="section-Goods__item-about">
                   <h3 class="section-Goods__item-title">Deprag P7</h3>
                   <p class="section-Goods__item-subtitle">DEPRAG P7 — это современная печь, разработанная специально для обжига стеклокерамики.</p>
                 </a>
@@ -248,12 +261,12 @@
             </div>
           </li>
           <!-- Deprag S7 -->
-          <li class="col-6 col-md-4 section-Goods__BlockItem" id="Deprag S7">
+          <li class="col-6 col-md-4 section-Goods__BlockItem" id="DepragS7">
             <div class="section-Goods__item">
               <div>
-                <a href="./DepragS7.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./DepragS7.html" class="section-Goods__item-about">
                   <div class="section-Goods__item-BlockImg">
-                    <img class="section-Goods__item-img" src="./images/Other/Deprag S7/Img1.png" alt="DEPRAG S7">
+                    <img class="section-Goods__item-img" src="./images/Other/DepragS7/Img1.png" alt="DEPRAG S7">
                   </div>
                 </a>
                 <div class="section-Goods__item-BlockPrice">
@@ -261,7 +274,7 @@
                   <p class="section-Goods__item-not-discount">50000$</p>
                   <p class="section-Goods__item-discount">-20%</p>
                 </div>
-                <a href="./DepragS7.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./DepragS7.html" class="section-Goods__item-about">
                   <h3 class="section-Goods__item-title">Deprag S7</h3>
                   <p class="section-Goods__item-subtitle">S7 - это новинка от китайской компании DEPRAG. Устройство предназначено для быстрой синтеризации диоксида циркония и оснащено полной автоматикой и современным высокоинтеллектуальным программным обеспечением.</p>
                 </a>
@@ -285,7 +298,7 @@
           <li class="col-6 col-md-4 section-Goods__BlockItem" id="Aoralscan3">
             <div class="section-Goods__item">
               <div>
-                <a href="./Aoralscan3.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./Aoralscan3.html" class="section-Goods__item-about">
                   <div class="section-Goods__item-BlockImg">
                     <img class="section-Goods__item-img" src="./images/Other/Aoralscan3/Img1.png" alt="Aoralscan3">
                   </div>
@@ -295,7 +308,7 @@
                   <p class="section-Goods__item-not-discount">50000$</p>
                   <p class="section-Goods__item-discount">-20%</p>
                 </div>
-                <a href="./Aoralscan3.html" arget="_blank" class="section-Goods__item-about">
+                <a href="./Aoralscan3.html" class="section-Goods__item-about">
                   <h3 class="section-Goods__item-title">Aoralscan3</h3>
                   <p class="section-Goods__item-subtitle">Компактный интраоральный сканер с высокой скоростью сканирования и удобным интерфейсом.</p>
                 </a>
@@ -316,8 +329,9 @@
             </div>
           </li>
         </ul>
-      </section>
-    </main>    
+      </section>   
+    </main>
+    <!-- Подвал сайта -->
     <footer class="root container-fluid footer">
       <div class="row footer__row">
         <div class="col-7 footer__column-first">
@@ -326,11 +340,10 @@
         </div>
         <div class="col-5 footer__column-second">
           <a class="footer__contact footer__contact_social" href="https://instagram.com/stom_vbatumi?igshid=YmMyMTA2M2Y"><i class="bi bi-instagram footer__contact-icon"></i></a>
-          <a class="footer__contact footer__contact_social"href="https://m.facebook.com/story.php?story_fbid=pfbid02FFKJtnYvUKNygX9bJvEWmazH7ffgNawFx6sSYgj3V3QStmNRSWA7YMbvC4zKpfcPl&id=100091967651481&mibextid=Nif5oz"><i class="bi bi-facebook footer__contact-icon"></i></a>
+          <a class="footer__contact footer__contact_social" href="https://m.facebook.com/story.php?story_fbid=pfbid02FFKJtnYvUKNygX9bJvEWmazH7ffgNawFx6sSYgj3V3QStmNRSWA7YMbvC4zKpfcPl&id=100091967651481&mibextid=Nif5oz"><i class="bi bi-facebook footer__contact-icon"></i></a>
           <a class="footer__contact footer__contact_social" href="mailto:agamamedov69@gmail.com?subject=Dental Additive&body=Добрый день,"><i class="bi bi-envelope footer__contact-icon"></i></a>
         </div>
       </div>
     </footer>
-  </div>
 </body>
 </html>

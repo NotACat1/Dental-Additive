@@ -13,12 +13,12 @@
   box-sizing: border-box;
   padding-top: calc(var(--index) * .35);
   border-bottom: calc(var(--index) * .35) rgba(0, 0, 0, 0) solid;
-  transition: border-bottom .5s ease, color .5s ease;
+  transition: border-bottom-color .5s ease, color .5s ease;
 }
 
 .TopNavBar__MenuLanguages-btn:hover {
   color: #a6bec9;
-  border-bottom: calc(var(--index) * .35) #8a1d6a solid;
+  border-bottom-color: #8a1d6a solid;
 }
 
 .TopNavBar__MenuLanguages-btn:hover .TopNavBar__iconLanguage {
