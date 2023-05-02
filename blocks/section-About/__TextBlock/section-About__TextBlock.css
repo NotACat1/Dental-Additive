@@ -4,5 +4,5 @@
   border-radius: calc(var(--index) * 2.2);
   box-shadow: 0 0 calc(var(--index) * .55) #389ead;
   position: relative;
-  top: calc(var(--index) * -2 - (var(--index) * 4.2 / var(--divider)));
+  top: calc(var(--index) * -2 - (var(--index) * 3.8 / var(--divider)));
 }
