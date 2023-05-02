@@ -1,6 +1,10 @@
 .header {
   margin: 0;
   height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  max-height: calc(var(--vh, 1vh) * 100);
   color: white;
   font-family: 'Ubuntu', Georgia, 'Times New Roman', Times, serif;
   background-image: url(../../images/header/Dental-office.jpg);
