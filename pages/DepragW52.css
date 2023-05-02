@@ -62,10 +62,3 @@
 @import url(../blocks/DopInfo/__table-td/DopInfo__table-td.css);
 @import url(../blocks/DopInfo/__table-tr/DopInfo__table-tr.css);
 @import url(../blocks/DopInfo/__img/DopInfo__img.css);
-
-/* PreloaderBlock */
-@import url(../blocks/PreloaderBlock/PreloaderBlock.css);
-@import url(../blocks/PreloaderBlock/__Preloader/PreloaderBlock__Preloader.css);
-@import url(../blocks/PreloaderBlock/__text/PreloaderBlock__text.css);
-@import url(../blocks/PreloaderBlock/__BoxText/PreloaderBlock__BoxText.css);
-@import url(../blocks/PreloaderBlock/__text/_transparent/PreloaderBlock__text_transparent.css);
