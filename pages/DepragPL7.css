@@ -1,0 +1,64 @@
+/* flag-icon */
+@import url(../vendor/flag-icon/css/flag-icon.css);
+
+/* Подключение шрифтов семейства Ubuntu */
+@import url(../vendor/fonts/Ubuntu/fonts__Ubuntu.css);
+
+/* root */
+@import url(../blocks/root/root.css);
+
+/* page */
+@import url(../blocks/page/_white/page_white.css);
+
+/* TopNavBar */
+@import url(../blocks/TopNavBar/TopNavBar.css);
+@import url(../blocks/TopNavBar/__row/TopNavBar__row.css);
+@import url(../blocks/TopNavBar/__row/TopNavBar__row.css);
+@import url(../blocks/TopNavBar/__logo/TopNavBar__logo.css);
+@import url(../blocks/TopNavBar/__logo-img/TopNavBar__logo-img.css);
+@import url(../blocks/TopNavBar/__menu/TopNavBar__menu.css);
+@import url(../blocks/TopNavBar/__menu-item/TopNavBar__menu-item.css);
+@import url(../blocks/TopNavBar/__menu-href/TopNavBar__menu-href.css);
+@import url(../blocks/TopNavBar/__MenuLanguages/TopNavBar__MenuLanguages.css);
+@import url(../blocks/TopNavBar/__MenuLanguages-btn/TopNavBar__MenuLanguages-btn.css);
+@import url(../blocks/TopNavBar/__iconLanguage/TopNavBar__iconLanguage.css);
+@import url(../blocks/TopNavBar/__DropDownLanguage/TopNavBar__DropDownLanguage.css);
+@import url(../blocks/TopNavBar/__DropDownLanguage-item/TopNavBar__DropDownLanguage-item.css);
+
+/* main-content */
+@import url(../blocks/main-content/main-content.css);
+
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__row/footer__row.css);
+@import url(../blocks/footer/__column-first/footer__column-first.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__contact_telephone/footer__contact_telephone.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__contact-icon/footer__contact-icon.css);
+@import url(../blocks/footer/__contact/_social/footer__contact_social.css);
+@import url(../blocks/footer/__column-second/footer__column-second.css);
+
+/* TwoColumns */
+@import url(../blocks/TwoColumns/TwoColumns.css);
+@import url(../blocks/TwoColumns/__column/TwoColumn__column.css);
+@import url(../blocks/TwoColumns/__img/TwoColumn__img.css);
+@import url(../blocks/TwoColumns/__title/TwoColumn__title.css);
+@import url(../blocks/TwoColumns/__paragraph/TwoColumn__paragraph.css);
+@import url(../blocks/TwoColumns/__Characteristics/TwoColumn__Characteristics.css);
+@import url(../blocks/TwoColumns/__Characteristics-item/TwoColumn__Characteristics-item.css);
+@import url(../blocks/TwoColumns/__Characteristics-img/TwoColumn__Characteristics-img.css);
+@import url(../blocks/TwoColumns/__Characteristics-text/TwoColumn__Characteristics-text.css);
+
+/* btn-out */
+@import url(../blocks/btn-out/btn-out.css);
+
+/* DopInfo */
+@import url(../blocks/DopInfo/DopInfo.css);
+@import url(../blocks/DopInfo/__title/DopInfo__title.css);
+@import url(../blocks/DopInfo/__table-header/DopInfo__table-header.css);
+@import url(../blocks/DopInfo/__table/DopInfo__table.css);
+@import url(../blocks/DopInfo/__table-th/DopInfo__table-th.css);
+@import url(../blocks/DopInfo/__table-td/DopInfo__table-td.css);
+@import url(../blocks/DopInfo/__table-tr/DopInfo__table-tr.css);
+@import url(../blocks/DopInfo/__img/DopInfo__img.css);
