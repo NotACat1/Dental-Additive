@@ -1,8 +1,6 @@
 const vh = window.innerHeight / 100;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-gsap.registerPlugin(ScrollTrigger);
-
 // Метки достижения якорей на сайте
 gsap.to('#TopNav__section-About', { borderBottomColor: "rgba(0, 0, 0, 0)" });
 gsap.to('#TopNav__Debrag-machines', { borderBottomColor: "rgba(0, 0, 0, 0)" });
