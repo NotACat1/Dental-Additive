@@ -5,4 +5,5 @@
   font-weight: 400;
   border-bottom: black  calc(var(--index) * .09 / var(--divider)) solid;
   border-right: black  calc(var(--index) * .09 / var(--divider)) solid;
+  width: 50%;
 }
