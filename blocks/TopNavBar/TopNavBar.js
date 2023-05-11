@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Метки достижения якорей на сайте
 gsap.to('#TopNav__section-About', { borderBottomColor: "rgba(0, 0, 0, 0)" });
-gsap.to('#TopNav__Debrag-machines', { borderBottomColor: "rgba(0, 0, 0, 0)" });
+gsap.to('#TopNav__Deprag-machines', { borderBottomColor: "rgba(0, 0, 0, 0)" });
 gsap.to('#TopNav__SHINING3D-machines', { borderBottomColor: "rgba(0, 0, 0, 0)" });
 gsap.to('#TopNav__Consumables', { borderBottomColor: "rgba(0, 0, 0, 0)" })
 
@@ -14,18 +14,18 @@ gsap.fromTo('#TopNav__section-About',
 // Выключить #TopNav__section-About
 gsap.fromTo('#TopNav__section-About', 
   { borderBottomColor: "#8a1d6a" },
-  { borderBottomColor: "rgba(0, 0, 0, 0)", scrollTrigger: { trigger: '#Debrag-machines', start: "top center", end: "-2% center", scrub: true }}
+  { borderBottomColor: "rgba(0, 0, 0, 0)", scrollTrigger: { trigger: '#Deprag-machines', start: "top center", end: "-2% center", scrub: true }}
 );
 
-// Включить #TopNav__Debrag-machines
-gsap.fromTo('#TopNav__Debrag-machines', 
+// Включить #TopNav__Deprag-machines
+gsap.fromTo('#TopNav__Deprag-machines', 
   { borderBottomColor: "rgba(0, 0, 0, 0)" },
-  { borderBottomColor: "#8a1d6a", scrollTrigger: { trigger: '#Debrag-machines', start: "top center", end: "10% center", scrub: true }}
+  { borderBottomColor: "#8a1d6a", scrollTrigger: { trigger: '#Deprag-machines', start: "top center", end: "10% center", scrub: true }}
 );
-// Выключить #TopNav__Debrag-machines
-gsap.fromTo('#TopNav__Debrag-machines', 
+// Выключить #TopNav__Deprag-machines
+gsap.fromTo('#TopNav__Deprag-machines', 
   { borderBottomColor: "#8a1d6a" },
-  { borderBottomColor: "rgba(0, 0, 0, 0)", scrollTrigger: { trigger: '#Debrag-machines', start: "90% center", end: "bottom center", scrub: true }}
+  { borderBottomColor: "rgba(0, 0, 0, 0)", scrollTrigger: { trigger: '#Deprag-machines', start: "90% center", end: "bottom center", scrub: true }}
 );
 
 // Включить #TopNav__SHINING3D-machines
